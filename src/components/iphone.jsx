@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react'
 import { useGLTF, useTexture } from '@react-three/drei'
+import React, { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 
 function IPhone(props) {

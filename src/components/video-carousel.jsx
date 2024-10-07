@@ -1,6 +1,6 @@
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/all'
 import { useGSAP } from '@gsap/react'
+import { ScrollTrigger } from 'gsap/all'
 import { useEffect, useRef, useState } from 'react'
 
 import { hightlightsSlides } from '../constants'

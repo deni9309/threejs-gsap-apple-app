@@ -1,8 +1,8 @@
-import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import { useEffect, useRef, useState } from 'react'
+import gsap from 'gsap'
 import { View } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
+import { useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
 
 import ModelView from './model-view'

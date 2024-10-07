@@ -1,5 +1,5 @@
-import { Suspense } from 'react'
 import { OrbitControls, PerspectiveCamera, View } from '@react-three/drei'
+import { Suspense } from 'react'
 import * as THREE from 'three'
 
 import IPhone from './iphone'
@@ -23,7 +23,7 @@ const ModelView = ({
       className={cn('w-full h-full absolute', index === 2 && 'right-[-100%]')}
     >
       {/* Ambient Light */}
-      <ambientLight intensity={0.3} />
+      <ambientLight intensity={4} />
 
       <PerspectiveCamera makeDefault position={[0, 0, 4]} />
 
