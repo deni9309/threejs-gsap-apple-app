@@ -1,3 +1,5 @@
+import * as Sentry from '@sentry/react'
+
 import Hero from './components/hero'
 import Highlights from './components/highlights'
 import Model from './components/model'
@@ -14,4 +16,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Sentry.withProfiler(App)
