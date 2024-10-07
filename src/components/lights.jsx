@@ -5,14 +5,12 @@ const Lights = () => {
     // Group different lights and lightformers
     // (can be used to organize lights, cameras, meshes, and other objects in the scene)
     <group name="lights">
-      
       {/**
        * Create a background environment for the scene
        * https://github.com/pmndrs/drei?tab=readme-ov-file#environment
        */}
       <Environment resolution={256}>
         <group>
-      
           {/**
            * Create custom lights with various shapes and properties in a 3D scene
            * https://github.com/pmndrs/drei?tab=readme-ov-file#lightformer
@@ -41,10 +39,10 @@ const Lights = () => {
         </group>
       </Environment>
 
-      {/** 
+      {/**
        * Create a light source positioned at a specific point in the scene that emits light in a specific direction
        * https://threejs.org/docs/#api/en/lights/SpotLight
-      */}
+       */}
       <spotLight
         position={[-2, 10, 5]}
         angle={0.15}
