@@ -22,4 +22,6 @@ const App = () => {
   )
 }
 
-export default Sentry.withProfiler(App)
+const ProfiledApp = Sentry.withProfiler(App)
+
+export default ProfiledApp
